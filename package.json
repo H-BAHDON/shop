@@ -1,0 +1,45 @@
+{
+  "name": "eshop",
+  "version": "0.0.1",
+  "description": "The second web development project",
+  "main": "public/js/app.js",
+  "scripts": {
+    "watch": "node resources/assets/build/dev.js",
+    "build": "node resources/assets/build/prod.js"
+  },
+  "author": "Pavel Koch <kouks.koch@gmail.com>, Hussein Bahdon",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.4",
+    "browser-sync": "^2.18.13",
+    "css-loader": "^0.28.10",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "vue": "^2.5.14",
+    "vue-loader": "^13.7.1",
+    "vue-template-compiler": "^2.5.14",
+    "webpack": "^3.11.0",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bulma": "^0.6.2",
+    "composer": "^2.0.2",
+    "js-cookie": "^2.2.0",
+    "lodash": "^4.17.5",
+    "npm": "^5.8.0",
+    "seeder": "^0.2.1",
+    "vue-axios": "^2.0.2"
+  }
+}
